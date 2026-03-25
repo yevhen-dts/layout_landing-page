@@ -59,3 +59,9 @@
     column-gap: 24px;
   }
 }
+
+@mixin outline {
+  outline: none;
+  border: none;
+  appearance: none;
+}

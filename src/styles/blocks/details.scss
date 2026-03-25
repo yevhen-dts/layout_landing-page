@@ -29,6 +29,8 @@
     font-weight: $fnt-weight-700;
     line-height: 27px;
 
+    @include outline;
+
     grid-column: 1 / -1;
 
     transition: box-shadow 0.3s;
@@ -94,7 +96,7 @@
     transition: transform 0.3s;
 
     &:hover {
-      transform: scale(103%);
+      transform: scale(104%);
     }
   }
 
